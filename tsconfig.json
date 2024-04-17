@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "target": "es2020", // Target latest version supported by your Node.js
+    "module": "es2020", // Use ES2020 modules to support import/export
+    "lib": ["es2020"], // Include ES2020 library features
+    "outDir": "./dist", // Where to put built JS files
+    "rootDir": "./src", // Root of your source files, adjust paths as needed
+    "moduleResolution": "node", // Use Node.js module resolution strategy
+    "resolveJsonModule": true, // Allows importing 'json' modules
+    "esModuleInterop": true, // Enables default imports from modules with no default export
+    "allowSyntheticDefaultImports": true, // Allow default imports from modules with no default export
+    "strict": true, // Enable strict type-checking options
+    "noImplicitAny": true, // Enable noImplicitAny option
+    "strictNullChecks": true, // Enable strictNullChecks option
+    "strictFunctionTypes": true, // Enable strictFunctionTypes option
+    "strictBindCallApply": true, // Enable strictBindCallApply option
+    "strictPropertyInitialization": true, // Enable strictPropertyInitialization option
+    "noImplicitThis": true, // Enable noImplicitThis option
+    "alwaysStrict": true, // Parse in strict mode and emit "use strict" for each source file
+    "skipLibCheck": true, // Skip type checking of all declaration files (*.d.ts)
+    "forceConsistentCasingInFileNames": true // Disable the use of inconsistent casing for files
+  },
+  "include": ["src/**/*"], // Include source files
+  "exclude": ["node_modules", "*.test.ts"] // Exclude node_modules and test files
+}
