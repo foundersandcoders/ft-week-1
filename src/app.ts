@@ -1,18 +1,14 @@
-import express, { Response, Request } from "express";
+import express, { Request, Response } from "express";
 import bodyParser from "body-parser";
+import selectRoutes from "./api/selectRoutes";
+
 
 const PORT = process.env.PORT || 3000;
 
 const app = express();
-// const selectRoutes = require("./api/selectRoutes");
 
 //Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
-// app.use("/", selectRoutes);
-
-//Api endpoints
-app.get("/", (req: Request, res: Response) => {
-  res.send("Hello World!");
-});
+app.use("/api", selectRoutes);
 
 app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));
