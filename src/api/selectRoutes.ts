@@ -1,16 +1,9 @@
 import express, { Request, Response } from "express";
 import readJsonFile from "../utils/readJsonFIle";
-import { DataType, QuestionType } from "./types/apiTypes";
+import { DataType, QuestionType } from "../types/apiTypes";
+import { shuffleArray, capitalizeFirstLetter } from "../utils/helperFunctions";
 
 const router = express.Router();
-
-const shuffleArray = (arr: QuestionType[]) => {
-  return arr.sort(() => Math.random() - 0.5);
-};
-
-const capitalizeFirstLetter = (str: string): string => {
-  return str.charAt(0).toUpperCase() + str.slice(1).toLowerCase();
-};
 
 // Returns 5 random question or number specified in the count value of query string
 // i.e. /api/random?count=10

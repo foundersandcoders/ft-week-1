@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { DataType } from "../api/types/apiTypes";
+import { DataType } from "../types/apiTypes";
 
 const readJsonFile = async (): Promise<DataType> => {
   try {
