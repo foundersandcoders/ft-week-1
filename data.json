@@ -5,7 +5,12 @@
       "category": "Science",
       "difficulty": "easy",
       "question": "What is the chemical symbol for Hydrogen?",
-      "options": ["H", "He", "Hy", "Ho"],
+      "options": [
+        "H",
+        "He",
+        "Hy",
+        "Ho"
+      ],
       "answer": "H",
       "favourited": false,
       "timestamp": "2023-04-01T10:00:00Z"
@@ -15,7 +20,12 @@
       "category": "Geography",
       "difficulty": "medium",
       "question": "What is the capital city of France?",
-      "options": ["Paris", "London", "Berlin", "Madrid"],
+      "options": [
+        "Paris",
+        "London",
+        "Berlin",
+        "Madrid"
+      ],
       "answer": "Paris",
       "favourited": false,
       "timestamp": "2023-04-01T10:05:00Z"
@@ -25,7 +35,12 @@
       "category": "History",
       "difficulty": "hard",
       "question": "In which year did the Battle of Hastings take place?",
-      "options": ["1066", "911", "1415", "1215"],
+      "options": [
+        "1066",
+        "911",
+        "1415",
+        "1215"
+      ],
       "answer": "1066",
       "favourited": false,
       "timestamp": "2023-04-01T10:10:00Z"
@@ -35,7 +50,12 @@
       "category": "Mathematics",
       "difficulty": "easy",
       "question": "What is the value of Pi to two decimal places?",
-      "options": ["3.14", "3.1415", "3.15", "3.1"],
+      "options": [
+        "3.14",
+        "3.1415",
+        "3.15",
+        "3.1"
+      ],
       "answer": "3.14",
       "favourited": false,
       "timestamp": "2023-04-01T10:15:00Z"
@@ -45,18 +65,27 @@
       "category": "Pop Culture",
       "difficulty": "medium",
       "question": "Who is known as the 'King of Pop'?",
-      "options": ["Elvis Presley", "Michael Jackson", "Prince", "Madonna"],
+      "options": [
+        "Elvis Presley",
+        "Michael Jackson",
+        "Prince",
+        "Madonna"
+      ],
       "answer": "Michael Jackson",
       "favourited": false,
       "timestamp": "2023-04-01T10:20:00Z"
     },
-
     {
       "id": 6,
       "category": "Science",
       "difficulty": "medium",
       "question": "Which planet is known as the Red Planet?",
-      "options": ["Mars", "Jupiter", "Saturn", "Venus"],
+      "options": [
+        "Mars",
+        "Jupiter",
+        "Saturn",
+        "Venus"
+      ],
       "answer": "Mars",
       "favourited": false,
       "timestamp": "2023-04-01T10:25:00Z"
@@ -66,7 +95,12 @@
       "category": "Science",
       "difficulty": "hard",
       "question": "What is the name of the first artificial Earth satellite?",
-      "options": ["Voyager 1", "Sputnik 1", "Explorer 1", "Apollo 11"],
+      "options": [
+        "Voyager 1",
+        "Sputnik 1",
+        "Explorer 1",
+        "Apollo 11"
+      ],
       "answer": "Sputnik 1",
       "favourited": false,
       "timestamp": "2023-04-01T10:30:00Z"
@@ -76,7 +110,12 @@
       "category": "Science",
       "difficulty": "easy",
       "question": "Water is composed of how many hydrogen atoms?",
-      "options": ["1", "2", "3", "4"],
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
       "answer": "2",
       "favourited": false,
       "timestamp": "2023-04-01T10:35:00Z"
@@ -86,7 +125,12 @@
       "category": "Geography",
       "difficulty": "easy",
       "question": "What is the largest ocean on Earth?",
-      "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+      "options": [
+        "Atlantic",
+        "Indian",
+        "Pacific",
+        "Arctic"
+      ],
       "answer": "Pacific",
       "favourited": false,
       "timestamp": "2023-04-01T10:40:00Z"
@@ -96,7 +140,12 @@
       "category": "Geography",
       "difficulty": "hard",
       "question": "Mount Everest is located in which mountain range?",
-      "options": ["Rockies", "Andes", "Himalayas", "Alps"],
+      "options": [
+        "Rockies",
+        "Andes",
+        "Himalayas",
+        "Alps"
+      ],
       "answer": "Himalayas",
       "favourited": false,
       "timestamp": "2023-04-01T10:45:00Z"
@@ -106,7 +155,12 @@
       "category": "Geography",
       "difficulty": "medium",
       "question": "Which country has the longest coastline in the world?",
-      "options": ["Australia", "Canada", "Russia", "USA"],
+      "options": [
+        "Australia",
+        "Canada",
+        "Russia",
+        "USA"
+      ],
       "answer": "Canada",
       "favourited": false,
       "timestamp": "2023-04-01T10:50:00Z"
@@ -116,7 +170,12 @@
       "category": "History",
       "difficulty": "medium",
       "question": "Who was the first Emperor of Rome?",
-      "options": ["Julius Caesar", "Augustus", "Nero", "Caligula"],
+      "options": [
+        "Julius Caesar",
+        "Augustus",
+        "Nero",
+        "Caligula"
+      ],
       "answer": "Augustus",
       "favourited": false,
       "timestamp": "2023-04-01T10:55:00Z"
@@ -141,7 +200,12 @@
       "category": "History",
       "difficulty": "hard",
       "question": "The ancient city of Carthage was located in which modern-day country?",
-      "options": ["Egypt", "Italy", "Tunisia", "Greece"],
+      "options": [
+        "Egypt",
+        "Italy",
+        "Tunisia",
+        "Greece"
+      ],
       "answer": "Tunisia",
       "favourited": false,
       "timestamp": "2023-04-01T11:05:00Z"
@@ -166,7 +230,12 @@
       "category": "Mathematics",
       "difficulty": "hard",
       "question": "What is the value of 'e' to three decimal places?",
-      "options": ["2.171", "2.718", "3.142", "1.618"],
+      "options": [
+        "2.171",
+        "2.718",
+        "3.142",
+        "1.618"
+      ],
       "answer": "2.718",
       "favourited": false,
       "timestamp": "2023-04-01T11:15:00Z"
@@ -176,7 +245,12 @@
       "category": "Mathematics",
       "difficulty": "easy",
       "question": "What is the sum of the angles in a triangle (in degrees)?",
-      "options": ["180", "360", "90", "270"],
+      "options": [
+        "180",
+        "360",
+        "90",
+        "270"
+      ],
       "answer": "180",
       "favourited": false,
       "timestamp": "2023-04-01T11:20:00Z"
@@ -201,7 +275,12 @@
       "category": "Pop Culture",
       "difficulty": "medium",
       "question": "Which movie features the quote, 'May the Force be with you'?",
-      "options": ["Star Wars", "Star Trek", "The Matrix", "Avatar"],
+      "options": [
+        "Star Wars",
+        "Star Trek",
+        "The Matrix",
+        "Avatar"
+      ],
       "answer": "Star Wars",
       "favourited": false,
       "timestamp": "2023-04-01T11:30:00Z"
@@ -211,7 +290,12 @@
       "category": "Pop Culture",
       "difficulty": "hard",
       "question": "Who performed the halftime show at the 2023 Super Bowl?",
-      "options": ["Beyoncé", "Taylor Swift", "Rihanna", "Drake"],
+      "options": [
+        "Beyoncé",
+        "Taylor Swift",
+        "Rihanna",
+        "Drake"
+      ],
       "answer": "Rihanna",
       "favourited": false,
       "timestamp": "2023-04-01T11:35:00Z"
@@ -251,7 +335,12 @@
       "category": "Music",
       "difficulty": "hard",
       "question": "In which musical time period was the 'classical' guitar most popular?",
-      "options": ["Baroque", "Classical", "Renaissance", "Romantic"],
+      "options": [
+        "Baroque",
+        "Classical",
+        "Renaissance",
+        "Romantic"
+      ],
       "answer": "Classical",
       "favourited": false,
       "timestamp": "2023-04-01T11:50:00Z"
@@ -261,7 +350,12 @@
       "category": "Music",
       "difficulty": "medium",
       "question": "Which singer is known as the 'Material Girl'?",
-      "options": ["Madonna", "Cher", "Lady Gaga", "Britney Spears"],
+      "options": [
+        "Madonna",
+        "Cher",
+        "Lady Gaga",
+        "Britney Spears"
+      ],
       "answer": "Madonna",
       "favourited": false,
       "timestamp": "2023-04-01T11:55:00Z"
@@ -316,7 +410,12 @@
       "category": "Literature",
       "difficulty": "hard",
       "question": "What language did J.R.R. Tolkien teach at Oxford University?",
-      "options": ["French", "German", "Old English", "Latin"],
+      "options": [
+        "French",
+        "German",
+        "Old English",
+        "Latin"
+      ],
       "answer": "Old English",
       "favourited": false,
       "timestamp": "2023-04-01T12:15:00Z"
