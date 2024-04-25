@@ -3,6 +3,9 @@ import toggleFavourite from "../utils/toggleFavourtie";
 
 const router = express.Router();
 
+// Toggles favourite value for question based on id
+// i.e /api/questions/1/favourite 
+
 router.patch(
   "/questions/:id/favourite",
   async (req: Request, res: Response) => {
