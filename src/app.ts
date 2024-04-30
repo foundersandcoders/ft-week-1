@@ -9,7 +9,7 @@ const app = express();
 
 //Middleware
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use("/api", selectRoutes);
-app.use("/api", patchRoutes);
+app.use("/api/questions/", selectRoutes);
+app.use("/api/questions/", patchRoutes);
 
 app.listen(PORT, () => console.log(`Listening on http://localhost:${PORT}`));

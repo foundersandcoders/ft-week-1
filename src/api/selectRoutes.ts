@@ -1,4 +1,4 @@
-import express, { Request, Response } from "express";
+import express, { Request, Response, NextFunction } from "express";
 import readJsonFile from "../utils/readJsonFIle";
 import { DataType, QuestionType } from "../types/apiTypes";
 import { shuffleArray, capitalizeFirstLetter } from "../utils/helperFunctions";
@@ -8,26 +8,29 @@ const router = express.Router();
 // Returns 5 random question or number specified in the count value of query string
 // i.e. /api/random?count=10
 
-router.get("/random", async (req: Request, res: Response) => {
-  try {
-    const data: DataType = await readJsonFile();
-    const shuffledQs: QuestionType[] = shuffleArray(data.questions);
+router.get(
+  "/random",
+  async (req: Request, res: Response, next: NextFunction) => {
+    try {
+      const data: DataType = await readJsonFile();
+      const shuffledQs: QuestionType[] = shuffleArray(data.questions);
 
-    const count: number =
-      typeof req.query.count === "string" ? parseInt(req.query.count, 10) : 5;
-    if (isNaN(count) || count <= 0) {
-      return res.status(400).json({
-        error:
-          "Invalid count query parameter. Please provide a positive integer.",
-      });
+      const count: number =
+        typeof req.query.count === "string" ? parseInt(req.query.count, 10) : 5;
+      if (isNaN(count) || count <= 0) {
+        return res.status(400).json({
+          error:
+            "Invalid count query parameter. Please provide a positive integer.",
+        });
+      }
+
+      res.json(shuffledQs.slice(0, count));
+    } catch (error: unknown) {
+      console.error("Error with route:", error);
+      next(error);
     }
-
-    res.json(shuffledQs.slice(0, count));
-  } catch (error: unknown) {
-    console.error("Error with route:", error);
-    res.status(500).json({ error: "Internal Server Error" });
-  }
-});
+  },
+);
 
 // Returns questions based on catergory and count
 // /api/category?category='music'&count=3
