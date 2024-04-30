@@ -2,6 +2,8 @@ import express from "express";
 import bodyParser from "body-parser";
 import selectRoutes from "./api/selectRoutes";
 import patchRoutes from "./api/patchRoutes";
+import cors from "cors";
+
 
 const PORT = process.env.PORT || 3000;
 
