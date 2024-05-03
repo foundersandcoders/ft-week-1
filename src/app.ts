@@ -11,6 +11,13 @@ const PORT = process.env.PORT || 443;
 
 const app = express();
 
+const currentDirectory = process.cwd();
+console.log(
+  "Current working directory:",
+  "wooooooooooooooooooooooo",
+  currentDirectory,
+);
+
 const options = {
   key: fs.readFileSync("/etc/ssl/certs/key.pem"),
   cert: fs.readFileSync("/etc/ssl/certs/cert.pem"),
