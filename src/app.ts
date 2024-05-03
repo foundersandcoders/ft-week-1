@@ -3,8 +3,6 @@ import bodyParser from "body-parser";
 import cors from "cors";
 import https from "https";
 import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "url";
 
 import selectRoutes from "./api/selectRoutes";
 import patchRoutes from "./api/patchRoutes";
@@ -20,12 +18,9 @@ console.log(
   currentDirectory,
 );
 
-const filename = fileURLToPath(import.meta.url);
-const dirname = path.dirname(__filename);
-
 const options = {
-  key: fs.readFileSync(path.join(dirname, "etc/ssl/certs/key.pem")),
-  cert: fs.readFileSync(path.join(dirname, "etc/ssl/certs/cert.pem")),
+  key: fs.readFileSync("/home/ec2-user/ft-week-1/etc/ssl/certs/key.pem"),
+  cert: fs.readFileSync("/home/ec2-user/ft-week-1/etc/ssl/certs/cert.pem"),
 };
 
 //Middleware
