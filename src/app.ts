@@ -12,8 +12,8 @@ const PORT = process.env.PORT || 443;
 const app = express();
 
 const options = {
-  key: fs.readFileSync("../etc/ssl/certs/key.pem"),
-  cert: fs.readFileSync("../etc/ssl/certs/cert.pem"),
+  key: fs.readFileSync("/etc/ssl/certs/key.pem"),
+  cert: fs.readFileSync("/etc/ssl/certs/cert.pem"),
 };
 
 //Middleware
